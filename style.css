@@ -1,0 +1,86 @@
+#draw {
+  border: 0.5px solid black;
+}
+
+html,
+body {
+  margin: 0;
+  background-image: url(assets/background.jfif);
+  background-size: cover;
+}
+
+.wrapper {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.wrapper div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.soal {
+  text-align: center;
+}
+
+.soal h2 {
+  color: rgb(24, 24, 24);
+}
+
+.soal p {
+  font-size: 23px;
+  color: rgb(26, 25, 25);
+  margin: 0px;
+}
+
+.jawaban {
+  text-align: left;
+  font-size: 20px;
+  height: 25px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#draw {
+  background-color: white;
+}
+
+#hapus {
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: rgb(251, 66, 66);
+  padding: 10px 20px;
+}
+
+#jawab {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 50%;
+  height: 20px;
+  border: 0.5 solid rgba(0, 0, 0, 0.253);
+}
+
+#ukuran-1,
+#ukuran-2,
+#ukuran-3 {
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: rgba(2, 0, 116, 0.87);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+#ukuran-1:hover,
+#ukuran-2:hover,
+#ukuran-3:hover {
+  background-color: rgba(1, 0, 63, 0.87);
+}
